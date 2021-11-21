@@ -47,7 +47,7 @@ app.get('/', async (req,res) => {
 /**
  * @api {post} /insert Insert a city
  * @apiGroup City Operations
- * @apiParam {String} name City Name
+ * @apiParam {String} name City name
  * @apiParam {Number} population Population
  * @apiSuccess {Object[]} result Result
  * @apiSuccess {String} result.status Status
